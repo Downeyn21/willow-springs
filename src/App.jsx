@@ -1,11 +1,15 @@
+import { Routes, Route } from 'react-dom'
+import HomePage from './components/HomePage'
+
 function App() {
 
   return (
     <>
-      <div>navBar</div>
-      <div>home-page</div>
-      <div>puppies for sale</div>
-      <div>contact-me</div>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage/>} />
+        </Route>
+      </Routes>
     </>
   )
 }
