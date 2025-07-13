@@ -27,3 +27,6 @@ dist-ssr
 #prisma 
 prisma/migrations/
 node_modules/.prisma
+
+#eslint
+eslint.config.js
