@@ -2,7 +2,8 @@ function NavBar() {
     return ( 
         <>
             <div className="navbarContainer">
-                <div>Logo</div>
+                <div className="NavbarLogo">Logo</div>
+                <div className="NavbarSpacer"></div>
                 <div className="navbarContentWrapper">
                     <div>About</div>
                     <div>Contact Me</div>

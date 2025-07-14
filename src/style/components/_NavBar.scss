@@ -2,9 +2,32 @@
 
 .navbarContainer {
     background-color: red;
-    @include flex_center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    box-sizing: border-box;
+
 }
 
 .navbarContentWrapper {
     background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: .75;
+
+    div {
+    border: solid;
+    background-color: green;
+    }
+}
+
+.NavbarSpacer {
+    background-color: green;
+}
+
+.NavbarLogo {
+    background-color: yellow;
 }
