@@ -2,10 +2,13 @@ function HomePage() {
 
     return ( 
         <>
-            <div className="HomepageContainer">
+            <div className="homepageContainer">
                 {/* will all be variables to change with admin section */}
-                <div className="HomepageHeaderWrapper">
-                    <h1>Welcome to Willow Springs</h1>
+                <div className="homepageHeaderContainer">
+                    <div className="headerWrapper">
+                        <h1>Welcome to Willow Springs</h1>
+                        <button>View Puppies</button>
+                    </div>
                     <div className="gradientOverlay"></div>
                     <img src="/public/images/aiPuppy.jpg" alt="" />
                 </div>
