@@ -12,8 +12,11 @@ function HomePage() {
                     <div className="gradientOverlay"></div>
                     <img src="/public/images/aiPuppy.jpg" alt="" />
                 </div>
-                <p>Something creative for trust love and something else cute or something bla bla bla bla</p>
-                <button>See Avaliable Pups</button>
+                <div className="homepageSubHeaderContainer">
+                    <h2>
+                        Something creative for trust love and something else cute or something bla bla bla bla
+                    </h2>
+                </div>
             </div>
         </>
     );

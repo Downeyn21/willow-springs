@@ -1,26 +1,34 @@
 @use '../utils/mixins' as *;
+@use '../utils/colors' as *;
 
 .navbarContainer {
-    background-color: red;
+    background-color: whitesmoke;
+    border-bottom: inset $secondary-color ;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 50px;
+    height: 100px;
     padding: 0 10px;
     box-sizing: border-box;
+
+    h1 {
+        font-family: "Playwrite HU", cursive;
+        color: $secondary-color;
+        margin: 2%;
+    }
 
 }
 
 .navbarContentWrapper {
-    background-color: blue;
     display: flex;
     justify-content: space-between;
     flex-grow: .75;
 
-    div {
-    border: solid;
-    background-color: green;
+    a {
+    cursor: pointer;
+    margin: 0 5%;
+    font-size: 19px;
     }
 }
 

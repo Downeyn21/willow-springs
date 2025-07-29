@@ -56,3 +56,15 @@
         cursor: pointer;
     }
 }
+
+.homepageSubHeaderContainer {
+    width: 100%;
+    height: 100px;
+    background-color: $secondary-color;
+    @include flex_center;
+
+    h2 {
+        font-weight: normal;
+        font-size: 23px;
+    }
+}

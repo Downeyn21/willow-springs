@@ -2,13 +2,16 @@ function NavBar() {
     return ( 
         <>
             <div className="navbarContainer">
-                <div className="NavbarLogo">Logo</div>
-                <div className="NavbarSpacer"></div>
-                <div className="navbarContentWrapper">
-                    <div>About</div>
-                    <div>Contact Me</div>
-                    <div>Puppies</div>
-                </div>
+                <h1>
+                    Willow Springs
+                </h1>
+                {/* <div className="NavbarSpacer"></div> */}
+                <nav className="navbarContentWrapper">
+                    <a>About</a>
+                    <a>Contact Me</a>
+                    <a>Puppies</a>
+                    <a>Adoption Process</a>
+                </nav>
             </div>
         </>
     );
