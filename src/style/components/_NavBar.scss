@@ -2,7 +2,7 @@
 @use '../utils/colors' as *;
 
 .navbarContainer {
-    background-color: whitesmoke;
+    background-color: $dark-grey;
     border-bottom: inset $secondary-color ;
     display: flex;
     justify-content: space-between;
@@ -22,6 +22,7 @@
 
 .navbarContentWrapper {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-grow: .75;
 
@@ -29,13 +30,6 @@
     cursor: pointer;
     margin: 0 5%;
     font-size: 19px;
+    text-align: center;
     }
-}
-
-.NavbarSpacer {
-    background-color: green;
-}
-
-.NavbarLogo {
-    background-color: yellow;
 }

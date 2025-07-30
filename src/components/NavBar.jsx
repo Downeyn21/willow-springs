@@ -11,6 +11,7 @@ function NavBar() {
                     <a>Contact Me</a>
                     <a>Puppies</a>
                     <a>Adoption Process</a>
+                    <a>Products</a>
                 </nav>
             </div>
         </>
