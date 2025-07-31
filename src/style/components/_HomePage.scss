@@ -2,21 +2,20 @@
 @use '../utils/colors' as *;
 
 .homepageContainer {
-    // @include flex_center;
-    // ~~didn't work?~~
+    // placeholder
 }
 
 .homepageHeaderContainer {
     background-color: red;
-    height: 340px;
+    height: 300px;
     display: flex;
     align-items: flex-start;
     position: relative;
     overflow: hidden;
 
     img {
-        width: 46%;
-        height: auto;
+        width: auto;
+        height: 119%;
         right: 0;
         top: -50px;
         position: absolute;
@@ -44,6 +43,7 @@
         margin: 70px;
         font-family: "Playwrite HU", cursive;
         z-index: 2;
+        color: whitesmoke;
     }
 
     button {
@@ -67,5 +67,25 @@
         font-weight: normal;
         font-size: 23px;
         color: $text-dark;
+    }
+}
+
+.miniAboutusContainer {
+    margin: 0 5rem;
+    width: calc(100% - 10rem);
+    height: 800px;
+    background-color: $primary_color;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        margin: 2rem;
+        font-size: 2rem
+    }
+    p {
+        margin: 2rem;
+        font-size: 20px;
     }
 }

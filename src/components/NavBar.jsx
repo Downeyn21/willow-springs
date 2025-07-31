@@ -1,17 +1,20 @@
+import { Link } from "react-router-dom";
+
 function NavBar() {
+
     return ( 
         <>
             <div className="navbarContainer">
                 <h1>
-                    Willow Springs
+                    <Link to='/'>Willow Springs</Link>
                 </h1>
                 {/* <div className="NavbarSpacer"></div> */}
                 <nav className="navbarContentWrapper">
-                    <a>About</a>
-                    <a>Contact Us</a>
-                    <a>Puppies</a>
-                    <a>Adoption Process</a>
-                    <a>Products</a>
+                    <Link to='/about'>About</Link>
+                    <Link to='/contact'>Contact Us</Link>
+                    <Link to='/puppies'>Puppies</Link>
+                    <Link to='/adoption'>Adoption Process</Link>
+                    <Link to='/products'>Products</Link>
                 </nav>
             </div>
         </>

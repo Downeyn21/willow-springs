@@ -1,0 +1,9 @@
+@use '../utils/mixins' as *;
+@use '../utils/colors' as *;
+
+.FooterContainer {
+    width: 100%;
+    height: 40px;
+    background-color: $secondary-color;
+    color: $text-dark;
+}
