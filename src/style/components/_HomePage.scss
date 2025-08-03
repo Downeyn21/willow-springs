@@ -1,12 +1,9 @@
 @use '../utils/mixins' as *;
 @use '../utils/colors' as *;
 
-.homepageContainer {
-    // placeholder
-}
 
 .homepageHeaderContainer {
-    background-color: red;
+    background-color: $primary_color;
     height: 300px;
     display: flex;
     align-items: flex-start;
@@ -29,15 +26,34 @@
     left: 0;
     top: 0;
     height: 100%;
-    width: 80%;
+    width: 75vw;
     z-index: 1;
-    clip-path: path('M0,0 H850 C750,150 750,220 850,370 H0 Z');
+    clip-path: path('M0,0 H950 C790,120 850,320 950,320 H0 Z');
+
+    @media (max-width: 1250px) {
+        clip-path: path('M0,0 H850 C690,220 850,320 850,320 H0 Z');
+    }
+
+    @media (max-width: 1130px) {
+        clip-path: path('M0,0 H750 C590,220 750,320 750,320 H0 Z');
+    }
+
+    @media (max-width: 1000px) {
+        clip-path: none;
+        width: 100vw;
+    }
 }
 
 .headerWrapper {
     z-index: 2;
     @include flex_center;
     flex-direction: column;
+
+    // @media (max-width: 1000px) {
+    //     h1 {
+    //         margin: 0;
+    //     }
+    //}
 
     h1 {
         margin: 70px;
@@ -87,7 +103,9 @@
 
     .homepagePuppiesWrapper {
         display: flex;
-        overflow: scroll;
+        overflow-x: auto;
+        overflow-y: hidden;
+        width: 100%;
 
         .PupSingle {
             border: solid $dark-grey;
@@ -100,6 +118,7 @@
             flex-direction: column;
             align-items: center;
             background-color: $secondary-color;
+            flex: 0 0 auto;
 
             img {
                 width: 300px;
@@ -112,22 +131,29 @@
     }
 }
 
-.miniAboutusContainer {
-    margin: 0 5rem;
-    width: calc(100% - 10rem);
-    height: 800px;
-    background-color: $primary_color;
-    box-sizing: border-box;
+.homepageLowerContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    h3 {
-        margin: 2rem;
-        font-size: 2rem
-    }
-    p {
-        margin: 2rem;
-        font-size: 20px;
+
+    .miniAboutusWrapper {
+        // margin: 0 10rem;
+        width: 75vw;
+        height: 800px;
+        background-color: $primary_color;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        h3 {
+            margin: 2rem;
+            font-size: 2rem
+        }
+        p {
+            margin: 2rem;
+            font-size: 20px;
+        }
     }
 }
