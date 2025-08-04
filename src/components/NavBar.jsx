@@ -14,7 +14,7 @@ function NavBar() {
                     <Link to='/contact'>Contact Us</Link>
                     <Link to='/puppies'>Puppies</Link>
                     <Link to='/adoption'>Adoption Process</Link>
-                    <Link to='/products'>Products</Link>
+                    <Link to='/product'>Products</Link>
                 </nav>
             </div>
         </>
