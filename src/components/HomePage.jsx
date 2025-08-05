@@ -65,12 +65,20 @@ function HomePage() {
                 </div>
                 <div className="homepageLowerContainer">
                     <div className="miniAboutusWrapper">
-                        <h3>About Us</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur praesentium provident eveniet labore obcaecati veritatis cumque tempora reiciendis cupiditate unde, optio totam ipsam consequatur quaerat atque? Ducimus exercitationem at ex.
-                            <br />
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum fuga accusamus iste, dolore magni, fugiat ad impedit nulla voluptate reprehenderit officia doloribus, iusto sapiente tempora! Fugiat nesciunt voluptatem explicabo ad?
-                        </p>
+                        <h3>ABOUT</h3>
+                        <div className="aboutSectionRight">
+                            <img src="/public/images/person-n-dog.jpg" alt="person and dog" />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolores odio debitis accusantium quia sunt dolorem ratione veritatis, maxime, est maiores, quis possimus architecto quas magnam eveniet tempora eos impedit?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolorem consequatur deserunt nemo, labore neque, recusandae exercitationem itaque ipsum dolores rem illum? Ipsam voluptas reiciendis fugit magnam nemo ullam eaque.
+                            </p>
+                        </div>
+                        <div className="aboutSectionLeft">
+                            <img src="/public/images/woman-holding-lab.jpg" alt="woman and dog" />
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, error est. Dolorum eos odio facere doloremque ea corporis ab laborum laudantium iure asperiores! Error deserunt asperiores at? Molestiae, at exercitationem.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nam pariatur animi, distinctio accusamus harum eligendi eum saepe iusto nesciunt totam expedita fugiat est velit facilis numquam. Ex, distinctio repellendus.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
