@@ -1,0 +1,25 @@
+@use '../utils/mixins' as *;
+@use '../utils/colors' as *;
+
+.contactWrapper {
+    @include flex_layout;
+    
+    .contactHeader {
+        width: 100vw;
+        height: 100px;
+        background-color: $primary_color;
+        text-align: center;
+        border-bottom: solid $secondary-color;
+
+        h3 {
+            font-size: 2rem;
+            margin: 1rem;
+        }
+    }
+
+    .contactMainContainer {
+        background-color: $primary_color;
+        width: 75vw;
+        height: 700px;
+    }
+}
