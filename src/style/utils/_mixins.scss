@@ -1,5 +1,21 @@
+@use '../utils/colors' as *;
+
 @mixin flex_center {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@mixin flex_layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin picture_style {
+    width: 300px;
+    height: auto;
+    border: 10px solid $dark-grey;
+    border-radius: 20px;
 }

@@ -1,0 +1,45 @@
+@use '../utils/mixins' as *;
+@use '../utils/colors' as *;
+
+.aboutMainContainer {
+    @include flex_layout;
+
+
+    .aboutHeaderContainer {
+        width: 100vw;
+        height: 400px;
+        background-image: url('/public/images/heroPlaceholder.png');
+        background-size: cover;
+        background-position: 0% 20%;
+        border-bottom: inset $primary_color;
+        display: flex;
+        align-items: center;
+    
+        h2 {
+            margin: 10rem;
+            font-size: 3rem;
+            color: $secondary-color;
+        }
+
+    }
+
+    .aboutBodyContainer {
+        width: 75vw;
+        height: 900px;
+        background-color: $primary_color;
+
+        .aboutFirstWrapper {
+            display: flex;
+            margin: 2rem;
+
+            img {
+                @include picture_style;
+                margin-right: 2rem;
+            }
+        }
+
+        div {
+            margin: 2rem;
+        }
+    }
+}
