@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom'
-import HomePage from './components/HomePage'
-import Layout from './components/Layout'
-import Contact from './components/Contact'
-import About from './components/About'
-import Puppies from './components/Puppies'
-import Adoption from './components/Adoption'
-import Products from './components/Products'
+import HomePage from './components/pages/HomePage'
+import Layout from './components/layout/Layout'
+import Contact from './components/pages/Contact'
+import About from './components/pages/About'
+import Puppies from './components/pages/Puppies'
+import Adoption from './components/pages/Adoption'
+import Products from './components/pages/Products'
 
 function App() {
 
