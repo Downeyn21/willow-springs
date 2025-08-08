@@ -21,5 +21,19 @@
         background-color: $primary_color;
         width: 75vw;
         height: 700px;
+        display: flex;
+        justify-content: right;
+
+        .contactFormContainer {
+            border: solid $dark-grey;
+            border-radius: 20px;
+            background-color: $secondary-color;
+            width: 400px;
+            height: 250px;
+            margin: 2rem;
+            
+            
+
+        }
     }
 }
