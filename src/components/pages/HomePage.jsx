@@ -51,7 +51,7 @@ function HomePage() {
                     </h2>
                 </div>
                 <div className="homepagePuppiesContainer">
-                    <h3>Avaliable Puppies</h3>
+                    <h3>Available Puppies</h3>
                     <div className="homepagePuppiesWrapper">
                         {puppyList.map((puppy, index) => (
                             <div key={index} className="PupSingle">

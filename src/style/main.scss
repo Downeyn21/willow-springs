@@ -1,5 +1,7 @@
 // Navbar 
 @use 'components/navbar/_NavBar';
+@use 'components/navbar/LinkContainer';
+@use 'components/navbar/HamburgerButton';
 
 // Pages
 @use 'components/pages/HomePage';

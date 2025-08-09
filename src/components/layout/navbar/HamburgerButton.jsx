@@ -1,8 +1,8 @@
-function HamburgerButton() {
+function HamburgerButton({toggle, setToggle}) {
     return ( 
         <>
             <button
-                className={toggle ? 'open' : ''}
+                className={`hamburgerButton ${toggle ? 'open' : ''}`}
                 onClick={() => {setToggle(!toggle)}}
                 aria-label="Toggle menu"
             >

@@ -1,0 +1,39 @@
+@use '/src/style/utils/colors' as *;
+
+.linkContainer {
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    // flex-grow: .75;
+    
+    a {
+    cursor: pointer;
+    margin: 0 5%;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    }
+
+    @media (max-width: 1100px) {
+        border: solid white;
+        background-color: $dark-grey;
+        z-index: 100;
+        position: absolute;
+        top: 90px;
+        right: 0;
+        
+        nav {
+            flex-direction: column;
+
+            a {
+                font-size: 20px;
+                margin: 2px 60px;
+                width: 100%;
+                padding: 30px;
+            }
+        }
+    }
+}
