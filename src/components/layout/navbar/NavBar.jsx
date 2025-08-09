@@ -14,8 +14,8 @@ function NavBar() {
                 </h1>
                 <div className="mobileQuery">
                     <HamburgerButton 
-                        toggle={toggle} 
-                        setToggle={setToggle} 
+                        toggle={toggle}
+                        setToggle={setToggle}
                     />
                 </div>
                 <div className="wideQuery">
