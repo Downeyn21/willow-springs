@@ -1,9 +1,18 @@
-@use 'components/NavBar';
-@use 'components/Footer';
-@use 'components/HomePage';
-@use 'components/About';
-@use 'components/Contact';
+// Navbar 
+@use 'components/navbar/_NavBar';
+
+// Pages
+@use 'components/pages/HomePage';
+@use 'components/pages/About';
+@use 'components/pages/Contact';
+
+// Base
 @use 'base/reset';
 @use 'base/body';
+
+// Assets
 @use 'assets/fonts';
-@use 'layout/layout';
+
+// Layout
+@use 'layout/Footer';
+@use 'layout/Layout';
