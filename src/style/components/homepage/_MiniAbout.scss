@@ -13,6 +13,10 @@
             @include pictureText_layout;
             margin-top: 1rem;
 
+            p {
+                margin: 2rem
+            }
+
             img {
                 @include picture_style;
                 margin: 0 1rem 1rem 1rem;

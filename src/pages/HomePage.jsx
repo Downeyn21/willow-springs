@@ -7,8 +7,7 @@ function HomePage() {
 
     return ( 
         <>
-            <div className="homepageContainer">
-                {/* will all be variables to change with admin section */}
+            <div className="homepageWrapper">
                 <HeroSection />
                 <div className="homepageSubHeaderContainer">
                     <h2>

@@ -24,7 +24,8 @@
 
 @mixin picture_style {
     width: 300px;
-    height: auto;
+    height: 300px;
     border: 10px solid $dark-grey;
     border-radius: 20px;
+    object-fit: cover;
 }
