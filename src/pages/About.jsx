@@ -7,7 +7,7 @@ function About() {
         </div>
         <div className="aboutBodyContainer">
           <div className="aboutFirstWrapper">
-            <img src="/public/images/person-n-dog.jpg" alt="" />
+            <img src="/public/images/person-n-dog.jpg" alt="dog n girl" />
             <p>
               Lorem JASON ipsum dolor sit amet consectetur adipisicing elit.
               Placeat vero id eos veniam. Natus quisquam sunt culpa officiis

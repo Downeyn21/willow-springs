@@ -13,6 +13,15 @@
     align-items: center;
 }
 
+@mixin pictureText_layout {
+    display: flex;
+
+
+    img {
+        margin-top: 0;
+    }
+}
+
 @mixin picture_style {
     width: 300px;
     height: auto;

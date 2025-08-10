@@ -1,0 +1,22 @@
+@use '/src/style/utils/mixins' as *;
+@use '/src/style/utils/colors' as *;
+
+.miniAboutWrapper {
+    @include flex_layout;
+
+    .aboutContainer {
+        width: 75vw;
+        height: 600px;
+        background-color: $primary-color;
+
+        .contentWrapper {
+            @include pictureText_layout;
+            margin-top: 1rem;
+
+            img {
+                @include picture_style;
+                margin: 0 1rem 1rem 1rem;
+            }
+        }
+    }
+}

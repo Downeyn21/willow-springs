@@ -1,0 +1,8 @@
+@use '/src/style/utils/mixins' as *;
+@use '/src/style/utils/colors' as *;
+
+.sliderContainer {
+    background-color: $primary_color;
+    width: 100vw;
+    height: 450px;
+}
