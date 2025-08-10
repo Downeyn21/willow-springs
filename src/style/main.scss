@@ -3,10 +3,15 @@
 @use 'components/navbar/LinkContainer';
 @use 'components/navbar/HamburgerButton';
 
+// homepage
+@use 'components/homepage/HeroSection';
+@use 'components/homepage/MiniAbout';
+@use 'components/homepage/PuppySlider';
+
 // Pages
-@use 'components/pages/HomePage';
-@use 'components/pages/About';
-@use 'components/pages/Contact';
+@use 'pages/HomePage';
+@use 'pages/About';
+@use 'pages/Contact';
 
 // Base
 @use 'base/reset';

@@ -1,18 +1,10 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import LinkContainer from "./LinkContainer";
 import HamburgerButton from "./HamburgerButton";
 
 function NavBar() {
     const [toggle, setToggle] = useState(false)
-
-    useEffect(() => {
-        if (toggle) {
-            console.log('toggle on');
-        } else {
-            console.log('toggle off');
-        }
-    }, [toggle])
 
     return (
         <>
