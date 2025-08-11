@@ -1,2 +1,71 @@
 @use '/src/style/utils/mixins' as *;
 @use '/src/style/utils/colors' as *;
+
+.homepageHeroContainer {
+    background-color: $primary_color;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        width: auto;
+        height: 119%;
+        right: 0;
+        top: -50px;
+        position: absolute;
+    }
+
+    .headerWrapper {
+    z-index: 2;
+    @include flex_center;
+    flex-direction: column;
+
+    @media (max-width: 1000px) {
+        width: 100vw;
+    }
+
+        h1 {
+            margin: 70px;
+            font-family: "Playwrite HU", cursive;
+            z-index: 2;
+            color: whitesmoke;
+        }
+
+        button {
+            z-index: 2;
+            padding: 25px 40px;
+            background-color: $secondary-color;
+            border-radius: 20px;
+            font-size: large;
+            cursor: pointer;
+            color: $text-dark;
+        }
+    }
+
+    .colorOverlay {
+    background-color: $primary_color;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 75vw;
+    z-index: 1;
+    clip-path: path('M0,0 H950 C790,120 850,320 950,320 H0 Z');
+
+        @media (max-width: 1250px) {
+            clip-path: path('M0,0 H850 C690,220 850,320 850,320 H0 Z');
+        }
+
+        @media (max-width: 1130px) {
+            clip-path: path('M0,0 H750 C590,220 750,320 750,320 H0 Z');
+        }
+
+        @media (max-width: 1000px) {
+            clip-path: none;
+            width: 100vw;
+        }
+    }
+
+}

@@ -9,7 +9,7 @@ function HomePage() {
         <>
             <div className="homepageWrapper">
                 <HeroSection />
-                <div className="homepageSubHeaderContainer">
+                <div className="sectionContainer">
                     <h2>
                         Home-raised, health-tested puppies with great temperaments.
                     </h2>
