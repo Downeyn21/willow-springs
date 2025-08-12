@@ -1,0 +1,20 @@
+@use '/src/style/utils/mixins' as *;
+@use '/src/style/utils/colors' as *;
+
+.contactFormWrapper {
+    border: solid $dark-grey;
+    border-radius: 20px;
+    background-color: $secondary-color;
+    width: 400px;
+    height: 250px;
+    margin: 2rem;
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            
+        }
+    }
+}

@@ -25,7 +25,7 @@ function ContactForm() {
 
     return (  
         <>
-            <div className="contactFormContainer">
+            <div className="contactFormWrapper">
                 <form onSubmit={contactHandle}>
                     <label>
                         Full Name:
@@ -45,7 +45,7 @@ function ContactForm() {
                     />
                     </label>
                     <br />
-                    <label>
+                    <label className="msgWrapper">
                         Message
                         <input
                         type="text" 
