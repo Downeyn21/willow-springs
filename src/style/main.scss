@@ -8,6 +8,9 @@
 @use 'components/homepage/MiniAbout';
 @use 'components/homepage/PuppySlider';
 
+//contact
+@use 'components/contact/ContactForm'
+
 // Pages
 @use 'pages/HomePage';
 @use 'pages/About';
