@@ -11,10 +11,14 @@
 // contact
 @use 'components/contact/ContactForm';
 
+//admin 
+@use 'components/admin/LoginForm';
+
 // pages
 @use 'pages/HomePage';
 @use 'pages/About';
 @use 'pages/Contact';
+@use 'pages/_Admin';
 
 // Base
 @use 'base/reset';

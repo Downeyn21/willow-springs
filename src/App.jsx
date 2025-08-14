@@ -6,6 +6,7 @@ import About from './pages/About'
 import Puppies from './pages/Puppies'
 import Adoption from './pages/Adoption'
 import Products from './pages/Products'
+import Admin from './pages/Admin'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='adoption' element={<Adoption />} />
           <Route path='products' element={<Products />} />
         </Route>
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </>
   )

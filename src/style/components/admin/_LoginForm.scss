@@ -1,0 +1,20 @@
+@use '/src/style/utils/mixins' as *;
+@use '/src/style/utils/colors' as *;
+
+.loginFormWrapper {
+    width: 100vw;
+    @include flex_center;
+
+    form {
+        background-color: $primary-color;
+        width: 400px;
+        height: 500px;
+        @include flex_center;
+        flex-direction: column;
+
+        label {
+            @include flex_layout;
+            margin: 2rem;
+        }
+    }
+}
